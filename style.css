@@ -1,0 +1,114 @@
+/* Colors and fonts */
+
+body {
+  background-image: url(images/imageBG.jpeg);
+  color : black;
+  font-family: Arial; 
+}
+
+h1 {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+h2 {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 25px;
+}
+h3 {
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color :#ffffff ;
+}
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin:40px auto;
+}
+
+@media (max-width: 760px) {
+  .container{
+  width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+  width: 400px;
+  }
+}
+
+.card-white {
+  background-color: #999999;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 30px 15px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 200%
+}
+
+.img-rectangle{
+  border-radius: 3px;
+}
+
+.btn-blue {
+  background-color: #0000ff;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #0000b3;
+  color: #87CEFA;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+font-size: 30px;
+color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+font-size: 30px;
+color: #0000b3;
+}
+
+/* Design adjustements using id */
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+#education p {
+margin-bottom: 40px;
+}
+
+#passion p  {
+margin-bottom: 40px;
+}
+
+#interest p  {
+margin-bottom: 40px;
+}
+
+
+
